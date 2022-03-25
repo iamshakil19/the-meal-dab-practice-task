@@ -9,8 +9,8 @@ const Cart = ({ cart }) => {
             <ul>
                 {
                     cart?.map(i =>
-                        <div key={i.id}>
-                            <img width='50px' src={i.img} alt=''></img>
+                        <div className='cart-items' key={i.id}>
+                            <img width='50px' height='50px' src={i.img} alt=''></img>
                             <p>{i.name}</p>
                         </div>
                     )
