@@ -1,0 +1,17 @@
+#order-summary{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+}
+
+.cart-container{
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+}
+.selected-items{
+    text-align: center;
+}
